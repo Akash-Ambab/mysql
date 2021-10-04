@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+td {
+    border: 1px solid red;
+}
+
+td input {
+    width: 200px;
+}
+
+td:last-child {
+    width: 200px !important;
+}
+
+td:first-child {
+    width: 50px;
+}
+
+th {
+    border: 1px solid red !important;
+}
+
+table {
+    width: 100%;
+}
+
+.pagination {
+    display: inline-block;
+}
+  
+  .pagination button {
+      outline: none;
+      border: none;
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .pagination button.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .pagination button:hover:not(.active) {background-color: #ddd;}
